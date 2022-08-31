@@ -13,6 +13,8 @@ export class Pagina1Component implements OnInit, OnChanges, DoCheck, AfterConten
   constructor() { 
     console.log('constructor');    
   }
+
+  //Son imputs que vengan de afuera y no de un formulario
   ngOnChanges(changes: SimpleChanges): void {
     console.log('ngOnChanges');
   }

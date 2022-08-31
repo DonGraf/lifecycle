@@ -1,2 +1,4 @@
-<p>pagina1 works!</p>
+<p>{{nombre}}</p>
 <input type="text" class="text" placeholder="Hola mundo" [(ngModel)]="nombre"><button (click)="guardar()">Click</button>
+
+<app-muestra-nombre [nombre]="nombre" ></app-muestra-nombre>
